@@ -1,0 +1,6 @@
+[
+  { "id": 1, "objeto": "Lavarropas", "marca": "Hitachi", "precio": 5000 },
+  { "id": 2, "objeto": "Celular", "marca": "Samsung", "precio": 14000 },
+  { "id": 3, "objeto": "Televisor", "marca": "Sanyo", "precio": 9000 },
+  { "id": 4, "objeto": "Zapatillas", "marca": "Nike", "precio": 100 }
+]

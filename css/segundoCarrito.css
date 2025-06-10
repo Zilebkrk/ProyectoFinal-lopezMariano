@@ -1,0 +1,140 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    padding: 30px 20px;
+    background-color: #f0f2f5;
+    font-family: 'Inter', sans-serif;
+    color: #333;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+
+#carrito {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  gap: 15px;
+
+  border: 3px solid #007bff; 
+  padding: 25px;
+  width: 90%;
+  max-width: 600px; 
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  margin-bottom: 25px; 
+}
+
+
+.carrito-vacio-mensaje {
+    font-size: 1.2rem;
+    color: #888;
+    text-align: center;
+    padding: 20px;
+}
+
+
+.carrito-item {
+  border: 1px solid #e0e0e0; 
+  padding: 15px;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #fcfcfc; 
+  border-radius: 8px;
+  text-align: center; 
+}
+
+.carrito-item p {
+  font-size: 1rem;
+  margin-bottom: 0; 
+  line-height: 1.4;
+  color: #555;
+}
+
+.carrito-item strong {
+  color: #2c3e50; 
+}
+
+.carrito-item hr {
+  border: none;
+  border-top: 1px dotted #ccc; 
+  margin: 10px 0;
+}
+
+
+#total {
+  font-size: 1.8rem;
+  color: #2c3e50;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+
+#vaciar-carrito {
+  padding: 12px 25px;
+  background-color: #dc3545; 
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  margin-bottom: 15px; 
+}
+
+#vaciar-carrito:hover {
+  background-color: #c82333;
+  transform: translateY(-2px);
+}
+
+#vaciar-carrito:active {
+  transform: translateY(0);
+}
+
+
+.boton { 
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: #6c757d; 
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.boton:hover {
+  background-color: #5a6268;
+  transform: translateY(-2px);
+}
+
+.boton:active {
+  transform: translateY(0);
+}
+
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+  #carrito, #total, #vaciar-carrito, .boton {
+    width: 95%; /* Ocupa más ancho en pantallas pequeñas */
+    padding: 15px;
+  }
+  .carrito-item p {
+    font-size: 0.95rem;
+  }
+}

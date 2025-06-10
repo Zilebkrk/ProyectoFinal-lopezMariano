@@ -99,6 +99,7 @@ h1 {
 
 .boton {
   display: inline-block;
+  margin-bottom: 5px;  
   padding: 15px 30px;
   background-color: #007bff;
   color: white;
@@ -108,6 +109,7 @@ h1 {
   font-weight: bold;
   transition: background-color 0.3s ease, transform 0.2s ease;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+ 
 }
 
 .boton:hover {
